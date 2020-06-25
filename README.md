@@ -2,6 +2,7 @@
 Sunspots are temporary phenomena on the Sun's photosphere that appear as spots darker than the surrounding areas. They are regions of reduced surface temperature caused by concentrations of magnetic field flux that inhibit convection. Sunspots usually appear in pairs of opposite magnetic polarity. Their number varies according to the approximately 11-year solar cycle. 
 
 Using Conv2D, Bidirectional LSTM and Dense Layer i was able to achieve 14.263876 MAE, below is my model's architecture.
+
 model4 = tf.keras.models.Sequential([
 
     tf.keras.layers.Conv1D(64, 5, strides=1, padding="same", activation="relu", input_shape=[None, 1]),
